@@ -33,6 +33,7 @@ $(document).ready(function(){
             },    
             720: {
                 spaceBetween:8,
+				slidesPerView:1.5,
             },              
         },        
     })
