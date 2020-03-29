@@ -80,7 +80,7 @@ $(document).ready(function(){
             },    
             720: {
                 slidesPerView:1,
-                spaceBetween:8,
+                spaceBetween:0,
             },              
         },
     });    
