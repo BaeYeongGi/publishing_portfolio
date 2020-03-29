@@ -245,8 +245,8 @@ animation-duration:16s; animation-timing-function:ease; animation-delay:0.4s; an
 
 /* Skill - Accordion */
 .skill_acc_wrap {display:flex; align-items:center;}
-.accordion_wrap {width:48%; margin-right:4%; background:lightblue; padding:20px; box-sizing:border-box;} 
-.accordion_wrap > li > a {display:block; width:100%; height:40px; line-height:40px; text-align:center; font-weight:600; color:#fff; background:#7fa6db; font-size:15px;}
+.accordion_wrap {width:48%; margin-right:4%; background:lightblue; padding:10px; box-sizing:border-box;} 
+.accordion_wrap > li > a {display:block; width:100%; height:40px; line-height:40px; text-align:center; color:#fff; background:#7fa6db; font-size:15px;}
 .accordion_wrap > li:hover > a {background:royalblue;}
 .accordion_wrap > li > div {background:lightgray; padding:0 10px; box-sizing:border-box; line-height:1.3; font-size:14px;} 
 .accordion_wrap > li > a.active {background:royalblue;}
@@ -263,8 +263,8 @@ transition:all 0.5s -0.3s;
 transition:all 0.5s 0s;
 }
 
-.acc_wrap {width:48%; padding:20px; background:#ccc; box-sizing:border-box;}
-.acc_title {width:100%; height:40px; line-height:40px; background:#666; color:#fff; font-size:14px; padding:0 10px; box-sizing:border-box; cursor:pointer;}
+.acc_wrap {width:48%; padding:10px; background:#ccc; box-sizing:border-box;}
+.acc_title {width:100%; height:40px; line-height:40px; background:#666; color:#fff; font-size:14px; padding:0 10px; box-sizing:border-box; cursor:pointer; text-align:center;}
 .acc_title:hover {background:#222;}
 .acc_cnt {background:#999; padding:10px; box-sizing:border-box;
 -webkit-transition:all 0.3s;
