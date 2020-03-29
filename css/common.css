@@ -93,7 +93,7 @@
 }
 
 @media screen and (max-width: 720px){
-    .header .wrap1000 {height:60px;}
+    .header .wrap1000 {height:60px; padding:0 20px;}
     .gnb_wrap {display:none;}
     .m_gnb_menu {display:block;}
     .m_gnb_group {display:block;}

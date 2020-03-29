@@ -355,6 +355,7 @@ transition:all 0.3s;
 @media screen and (max-width: 720px){
 
 	/* Common */
+	.main_section {padding:30px 20px 30px 20px;}
 	.main_title {text-align:center;}
 	.main_subtitle {text-align:center; }
 
