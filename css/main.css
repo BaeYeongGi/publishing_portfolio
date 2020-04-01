@@ -6,9 +6,10 @@
 .main_title {font-size:3.2rem; font-family:'Montserrat','Noto Sans KR', sans-serif; margin:0 0 6px 0; color:#222;}
 .main_title_icon_wrap {width:40px; display:inline-block;}
 .icon_profile {color:#1448a6;}
+.icon_ability {color:#f8ca00;}
 .icon_skill {color:#ff7417;}
-.icon_study {color:#ff4242;}
 .icon_portfolio {color:#0bab30;}
+.icon_study {color:#ff4242;}
 .icon_contact {color:#cc40d9;}
 .main_subtitle {font-size:1.8rem; margin:0 0 20px 0;}
 
