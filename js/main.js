@@ -86,6 +86,52 @@ $(document).ready(function(){
     });    
 });
 
+/* Ability - Graph */
+
+var fire = true;
+function abilityGraph(){
+    var abilityTop = window.pageYOffset;
+    if(fire === true){
+        if(abilityTop > 200){
+            fire = false;
+            var html5Value = document.querySelector('.html5_value');
+            var css3Value = document.querySelector('.css3_value');
+            var jqueryValue = document.querySelector('.jquery_value');
+            var javascriptValue = document.querySelector('.javascript_value');
+            var ajaxValue = document.querySelector('.ajax_value');
+            var githubValue = document.querySelector('.github_value');
+            var photoshopValue = document.querySelector('.photoshop_value');
+            var abilityCount = 0;
+            var Counting100 = setInterval(function(){
+                if(abilityCount < 99){
+                    abilityCount += 1;
+                    html5Value.innerText = abilityCount;     
+                    css3Value.innerText = abilityCount;
+                    jqueryValue.innerText = abilityCount;
+                    javascriptValue.innerText = abilityCount;
+                    ajaxValue.innerText = abilityCount;
+                    githubValue.innerText = abilityCount;
+                    photoshopValue.innerText = abilityCount;
+                } else {
+                    html5Value.innerText = 100;
+                    css3Value.innerText = 100;
+                    jqueryValue.innerText = 80;
+                    photoshopValue.innerText = 80;
+                    javascriptValue.innerText = 70;
+                    ajaxValue.innerText = 40;
+                    githubValue.innerText = 40;
+                    clearInterval(Counting100);
+                }
+            }, 3)
+            var graphList = document.querySelectorAll('.ability_graph li div');
+            for(i = 0; i < graphList.length; i++){
+                graphList[i].classList.add('on')
+            }                
+        }    
+    }
+}
+window.addEventListener('scroll', abilityGraph);
+
 /* Skill - Responsive */
 var mResCont = document.querySelector('.m_res_gnb_group');
 var mResCloseBtn = document.querySelector('.m_res_gnb_close');

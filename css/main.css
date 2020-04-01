@@ -25,6 +25,44 @@
 .main_profile_history_cnt > dl:not(:last-child) {margin:0 0 10px 0;}
 .main_profile_history_cnt > dl > dt {margin:0 0 3px 0;}
 
+/* Ability */
+.ability_info {display:flex; justify-content:flex-end;}
+.ability_info > li {font-size:1.4rem;}
+.ability_info > li:not(:last-child) {margin:0 20px 0 0;}
+.ability_info > li > span {display:inline-block; vertical-align:top; width:10px; height:10px; border-radius:10px; margin:2px 6px 0 0;}
+.ability_html5 {background:#de4b25;}
+.ability_css3 {background:#0061ad;}
+.ability_jquery {background:#0097ff;}
+.ability_javascript {background:#e9d54d;}
+.ability_ajax {background:#5CAB7D;}
+.ability_github {background:#008c9e;}
+.ability_photoshop {background:#061f25}
+.ability_graph {margin:30px 0 0 0;}
+.ability_graph > li {height:50px; display:flex; align-items:center;}
+.ability_graph > li:not(:last-child) {margin:0 0 10px 0;}
+
+.ability_graph > li > div {width:0; height:100%; text-align:right; line-height:50px; color:#fff; font-family:'Montserrat','Noto Sans KR', sans-serif;
+	font-weight:600; padding:0 0; box-sizing:border-box; transition:all ease-in 0.7s; display:flex; justify-content:space-between;}
+.ability_graph > li > div > span {margin:0 0 0 14px;}
+.ability_graph > li > div > span::after {content:'%'; font-family:'Montserrat','Noto Sans KR', sans-serif; color:#222;  color:#fff;}	
+.ability_graph > li > div.on {padding:0 14px 0 0;}
+
+.graph_html5 > div {background:#de4b25; }
+.graph_css3 > div {background:#0061ad; }
+.graph_jquery > div {background:#0097ff;}
+.graph_javascript > div {background:#e9d54d;}
+.graph_ajax > div {background:#5CAB7D;}
+.graph_github > div {background:#008c9e;}
+.graph_photoshop > div {background:#061f25;}
+
+.graph_html5 > div.on {width:100%;}
+.graph_css3 > div.on {width:100%;}
+.graph_jquery > div.on {width:80%;}
+.graph_javascript > div.on {width:70%;}
+.graph_ajax > div.on {width:40%;}
+.graph_github > div.on {width:40%;}
+.graph_photoshop > div.on {width:80%;}
+
 /* Skill */
 .main_skill_slide {height:200px;}
 .main_skill_slide .swiper-wrapper {align-items:center;}
@@ -369,6 +407,9 @@ transition:all 0.3s;
 	.main_profile_info {padding:18px 0 0 36px;}
 	.main_profile_info > li > span {width:54px; margin:0 0 0 -67px;}
 	
+	/* Ability */
+	.ability_info {justify-content:center; flex-wrap:wrap; display:none;}
+
 	/* Skill */
 	.main_skill_slide {height:160px;}
 	.main_skill_slide .swiper-wrapper .swiper-slide {height:130px; border-width:3px;}
