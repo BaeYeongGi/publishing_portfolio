@@ -87,12 +87,12 @@ $(document).ready(function(){
 });
 
 /* Ability - Graph */
-
+var abilityArea = document.querySelector('#ability').offsetTop - 500;
 var fire = true;
 function abilityGraph(){
     var abilityTop = window.pageYOffset;
     if(fire === true){
-        if(abilityTop > 200){
+        if(abilityTop > abilityArea){
             fire = false;
             var html5Value = document.querySelector('.html5_value');
             var css3Value = document.querySelector('.css3_value');
