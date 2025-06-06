@@ -211,9 +211,9 @@ for(i = 0; i < portList.length; i++){
     var ulNode = document.createElement('UL');
     ulNode.className = "portEffectWrap";
     ulNode.innerHTML = "<li></li><li></li><li></li><li></li>";
-    portList[i].setAttribute('target','_blank');
+    // portList[i].setAttribute('target','_blank');
     portList[i].appendChild(ulNode);
-    
+    portList[i].href = 'javascript:void();'
     var pNode = document.createElement('P');
     pNode.className = "portName";
     pNode.innerText = portImg[i].getAttribute('alt')

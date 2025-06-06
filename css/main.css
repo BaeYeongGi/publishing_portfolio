@@ -284,9 +284,9 @@ transition:all 0.3s;
 /* Portfolio */
 .portfolio_list_wrap .mCustomScrollBox .mCSB_container {display:flex;}
 .portfolio_list_wrap .mCustomScrollBox .mCSB_container > li { height:400px; border:1px solid #ccc; position:relative;}
-.portfolio_list_wrap .mCustomScrollBox .mCSB_container > li > a {display:block; width:100%; height:100%;}
+.portfolio_list_wrap .mCustomScrollBox .mCSB_container > li > div {display:block; width:100%; height:100%;}
 .portfolio_list_wrap .mCustomScrollBox .mCSB_container > li:not(:last-child) {margin:0 20px 0 0;}
-.portfolio_list_wrap .mCustomScrollBox .mCSB_container > li > a > img {height:100%;}
+.portfolio_list_wrap .mCustomScrollBox .mCSB_container > li > div > img {height:100%;}
 .portfolio_list_wrap .mCSB_horizontal.mCSB_inside > .mCSB_container {margin-bottom:40px;}
 .portEffectWrap {position:absolute; top:0; left:0; width:100%; height:100%; background:transparent; transition-property:background-color; transition-duration:0.3s;}
 .portEffectWrap > li {position:absolute; background:#fff; transition-property:width,height; transition-duration:0.3s;}
